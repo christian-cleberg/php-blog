@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2021-04-20 19:16:36",
+    "username": "John Doe",
+    "comment": "Lorem ipsum dolor sit amet!",
+    "postURL": "https:\/\/blog.example.com\/post\/lorem-ipsum.html"
+  },
+  {
+    "timestamp": "2021-04-21 02:32:39",
+    "username": "Jane Dow",
+    "comment": "# Lorem Ipsum!",
+    "postURL": "https:\/\/blog.example.com\/post\/example-syntax.html"
+  }
+]

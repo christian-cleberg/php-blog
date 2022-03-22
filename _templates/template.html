@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{Page_Title}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="My Name">
+    <meta name="description" content="{Page_Description}">
+    <link rel="canonical" href="{Canonical_URL}">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/static/app.css">
+    {Page_Extras}
+</head>
+
+<body>
+<main id="main">
+    <nav class="links">
+        <span>[<a href="/">Home</a>]</span>
+        <span>[<a href="/categories/">Categories</a>]</span>
+        <span>[<a href="/comments/">Comments</a>]</span>
+        <span>[<a href="/rss.xml">RSS</a>]</span>
+    </nav>
+    {Content_Column}
+    {User_Comments}
+</main>
+
+<footer>
+    <h2>Contact</h2>
+    <p>Have questions? Email me <br>
+        at <a href="mailto:hello@example.com">hello@example.com</a>,<br>
+        message me on <a rel="me" href="https://floss.social/@example">Mastodon</a>,<br>
+        or open an issue on <a href="https://github.com/WittsEnd2/Example_Repo">GitHub</a>.</p>
+    <p>Copyright &copy; 20xx - {Current_Year}</p>
+</footer>
+
+</body>
+
+</html>

@@ -24,7 +24,7 @@ cd yourBlog.com
 ```
 
 ```bash
-git clone git://git.cleberg.io/php-blog.git
+git clone git://git.cleberg.net/php-blog.git
 ```
 
 Change the global variables at the top of the `index.php` script:
